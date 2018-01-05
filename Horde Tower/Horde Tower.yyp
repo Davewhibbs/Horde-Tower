@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "050bba93-cdd3-405d-b6b2-d19d3325fb5f",
+            "Value": {
+                "id": "dd5823a8-42fc-497d-9f0e-dd3d3222070e",
+                "resourcePath": "sounds\\snd_tower_hurt\\snd_tower_hurt.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "06eab92d-158e-4a6f-8eda-9a0a4232354f",
             "Value": {
                 "id": "5ae93595-6f87-4e85-b7fc-f05e7d73cbfe",
@@ -39,11 +47,27 @@
             }
         },
         {
+            "Key": "073b9e7b-3d2a-4fd4-ba10-1bd7dc26dda6",
+            "Value": {
+                "id": "114b5fe1-d757-4e7b-8b59-d6c28a12dcd2",
+                "resourcePath": "sounds\\snd_shoot\\snd_shoot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0d4502aa-1082-4029-b67b-a476fad62c5f",
             "Value": {
                 "id": "efd5bfa0-a3e5-492b-b4c2-1cdd1ecae0f7",
                 "resourcePath": "sprites\\s_gun\\s_gun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1a6d3c0b-08de-49f9-acea-65cd1e87f36b",
+            "Value": {
+                "id": "97db8652-2d20-402d-91b6-ae14b46e38f2",
+                "resourcePath": "sounds\\snd_tower_death\\snd_tower_death.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -100,6 +124,14 @@
                 "id": "4643a245-0aea-4626-b12b-2b8e0dc0f947",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6304567e-db31-4410-b5e2-9dfcc620a54c",
+            "Value": {
+                "id": "386684c7-b77f-47d4-a2a2-e2740492d2c6",
+                "resourcePath": "sounds\\snd_enemy_death\\snd_enemy_death.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -284,6 +316,14 @@
                 "id": "4e3fd835-be94-4dc7-843e-4526c4c2c7a1",
                 "resourcePath": "views\\f1fef7a0-caf9-4062-80dc-09b2048484ff.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f3c16c28-bef7-4a33-be5e-d57697e08d4d",
+            "Value": {
+                "id": "59d6b888-77dd-421a-ace6-52eb4f1a78ff",
+                "resourcePath": "sounds\\snd_enemy_hit\\snd_enemy_hit.yy",
+                "resourceType": "GMSound"
             }
         },
         {

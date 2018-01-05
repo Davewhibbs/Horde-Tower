@@ -5,6 +5,7 @@ input_shoot = keyboard_check(vk_up);
 
 //-----------CHECK FOR DEATH
 if life >= 4{
+	audio_play_sound(snd_tower_death, 1, 0);
 	instance_destroy();
 }
 
@@ -33,6 +34,7 @@ if (input_shoot) {
 	// Check cooldown
 	if (alarm[0] <= 0){
 		// If off cooldown, create a bullet
+		audio_play_sound(snd_shoot, 1, 0);
 		var bullet = instance_create_layer(x + x_offset, y + y_offset, "Instances", o_bullet);
 		bullet.dir = dir;
 		bullet.image_angle = dir;

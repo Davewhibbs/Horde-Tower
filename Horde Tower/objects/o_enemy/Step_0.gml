@@ -51,6 +51,7 @@ else if state == states.hit{
 
 //----------DEATH
 if hp <= 0 {
+	audio_play_sound(snd_enemy_death, 1, 0);
 	instance_destroy();
 }
 
@@ -63,6 +64,7 @@ y += moveY;
 //----------SWITCH TO HIT STATE IF COLLIDING WITH TOWER
 if (tower_collide == 1)
 {
+	//audio_play_sound(snd_tower_hurt, 1, 0);
 	o_tower.life ++;
 	state = states.hit;
 	var hit_dir = point_direction(o_tower.x, o_tower.y, x, y);
