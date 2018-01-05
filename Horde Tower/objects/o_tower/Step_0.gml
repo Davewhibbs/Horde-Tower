@@ -8,11 +8,19 @@ input_shoot = keyboard_check(vk_up);
 //-----------RESET MOVE VARIABLES
 move_dir = 0;
 
+
 //-----------INTENDED MOVEMENT
-move_dir = (input_left - input_right) * spd;
+move_dir += (input_left - input_right);
+velocity += move_dir;
+if velocity >= spd
+{
+	velocity = spd;
+}
+
+velocity = lerp(velocity, 0, frict);
 
 //-----------UPDATE DIRECTION AND POSITION OF GUN
-dir += move_dir;
+dir += velocity;
 x_offset = lengthdir_x(90, dir);
 y_offset = lengthdir_y(90, dir);
 
@@ -28,3 +36,4 @@ if (input_shoot) {
 		alarm[0] = shoot_cooldown;
 	}
 }
+

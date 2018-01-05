@@ -8,20 +8,32 @@ if alarm[0]			<= 0 {
 	spawnY			= 0;
 	
 	//-----------DETERMINE WHICH SIDE OF THE SCREEN TO SPAWN ON
-	horizontal		= random_range(0, 1);
-	vertical		= random_range(0,1);
+	horizontal		= irandom(1)
+	vertical		= irandom(1);
 	
 	//-----------DETERMINE SPECIFIC SPAWN LOCATION
-	if horizontal	== 0{
-		spawnX		= random_range(-10, 0);
-	} else {	
-		spawnX		= random_range(room_width, room_width + 10);
+	// Left
+	if horizontal == 0 && vertical == 0{
+		spawnX		= irandom_range(room_width, room_width + 10);
+		spawnY		= irandom_range(0, room_height);
+	} 
+	
+	// Right
+	else if horizontal == 1 && vertical == 0{	
+		spawnX		= irandom_range(-10, 0);
+		spawnY		= irandom_range(0, room_height);
 	}
 	
-	if vertical		== 0{
-		spawnY		= random_range(-10, 0);
-	} else {
-		spawnY		= random_range(room_height, room_height + 10);
+	// Up
+	else if horizontal	== 0 && vertical == 1{
+		spawnX		= irandom_range(0, room_width);
+		spawnY		= irandom_range(-10, 0);
+	} 
+	
+	// Down
+	else if horizontal == 1 && vertical == 1{
+		spawnX		= irandom_range(0, room_width);
+		spawnY		= irandom_range(room_height, room_height + 10);
 	}
 	
 	//----------SPAWN ENEMY
