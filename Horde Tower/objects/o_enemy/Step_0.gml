@@ -1,3 +1,4 @@
+if instance_exists(o_tower) == true{
 //----------UPDATE DIRECTION
 dir = point_direction(x, y, o_tower.x, o_tower.y);
 
@@ -62,8 +63,10 @@ y += moveY;
 //----------SWITCH TO HIT STATE IF COLLIDING WITH TOWER
 if (tower_collide == 1)
 {
+	o_tower.life ++;
 	state = states.hit;
 	var hit_dir = point_direction(o_tower.x, o_tower.y, x, y);
 	moveX = lengthdir_x(push_spd, hit_dir);
 	moveY = lengthdir_y(push_spd, hit_dir);
+}
 }

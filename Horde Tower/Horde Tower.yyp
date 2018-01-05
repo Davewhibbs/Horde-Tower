@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "8ce08248-8ae3-41c5-a108-8afc4f27be06",
+            "Value": {
+                "id": "eceba8b1-fd3a-4250-ac5d-cdf7374d6629",
+                "resourcePath": "sprites\\s_tower_destroy\\s_tower_destroy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8d3a290d-1d2c-4b89-b257-d143aba75904",
             "Value": {
                 "id": "359c4158-0925-417b-a4a0-c23bee75080b",
@@ -244,6 +252,14 @@
                 "id": "c976d3e9-e599-49f4-aad0-bafea021fc4b",
                 "resourcePath": "views\\d059c908-5251-4435-bcf5-073ead0aeb4d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d886db16-e6bf-49e1-bd53-5201a43e47da",
+            "Value": {
+                "id": "f9d931de-be83-4c36-b218-c6a05704e3df",
+                "resourcePath": "objects\\o_tower_destroy\\o_tower_destroy.yy",
+                "resourceType": "GMObject"
             }
         },
         {

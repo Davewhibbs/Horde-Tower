@@ -3,7 +3,10 @@ input_left = keyboard_check(vk_left);
 input_right = keyboard_check(vk_right);
 input_shoot = keyboard_check(vk_up);
 
-//-----------ALTER SPEED
+//-----------CHECK FOR DEATH
+if life >= 4{
+	instance_destroy();
+}
 
 //-----------RESET MOVE VARIABLES
 move_dir = 0;
