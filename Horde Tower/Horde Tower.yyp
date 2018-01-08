@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2fa46bda-e20d-4a0c-bd90-686fce178e1f",
+            "Value": {
+                "id": "36746953-b5b0-46cb-80c8-cc886a536fa0",
+                "resourcePath": "objects\\o_game\\o_game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "34e48539-11ab-401a-821d-b96f42bae491",
             "Value": {
                 "id": "3e58e8a7-1b08-4533-abe4-5f933c0b1131",
@@ -108,6 +116,14 @@
                 "id": "b6b8daa2-14d0-41ec-883e-b44052efc545",
                 "resourcePath": "objects\\o_camera\\o_camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "51087ba3-fe54-4935-a700-6dff29e52d0a",
+            "Value": {
+                "id": "782da6fd-7fdb-41c1-9390-3e45705f22cd",
+                "resourcePath": "scripts\\EnemyBehavior\\EnemyBehavior.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -143,6 +159,14 @@
             }
         },
         {
+            "Key": "655132af-e6fd-4180-a131-88a039aecd6b",
+            "Value": {
+                "id": "3a785a6e-2bf0-4b91-ae90-6fe2ef075b66",
+                "resourcePath": "objects\\o_enemy_health\\o_enemy_health.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "73d8389d-7e86-47a7-b0bc-d06582656822",
             "Value": {
                 "id": "8b2f9170-2f83-47c1-9ee7-89a5a27b5416",
@@ -163,6 +187,14 @@
             "Value": {
                 "id": "d7819774-a19b-4266-8315-15fb453e30b1",
                 "resourcePath": "views\\79ee9571-2507-4a87-847e-c9c6b3126a49.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "82c674d0-c068-42ab-a21b-0a3e9ba4b651",
+            "Value": {
+                "id": "8234f0ac-fded-4534-a414-84e0123aad8a",
+                "resourcePath": "views\\82c674d0-c068-42ab-a21b-0a3e9ba4b651.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -220,6 +252,14 @@
                 "id": "53adeb09-6a56-42e6-a10f-2bb574ecb0c5",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a96c673e-fcf7-4ae2-9cbf-d5674697caab",
+            "Value": {
+                "id": "561ec554-7bec-47f5-8262-b8fae8b95174",
+                "resourcePath": "sprites\\s_enemy_death\\s_enemy_death.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -303,6 +343,14 @@
             }
         },
         {
+            "Key": "e50bc1e4-9876-4b0c-b3a7-4ca975bf9ca0",
+            "Value": {
+                "id": "bb51c499-10bb-4704-9a5d-72749d4d8388",
+                "resourcePath": "objects\\o_enemy_death\\o_enemy_death.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e5e0d793-4e09-4f20-a49f-fb6b8ea78a9d",
             "Value": {
                 "id": "84487af1-2d79-4377-af5d-4775f765edbc",
@@ -376,7 +424,7 @@
         }
     ],
     "script_order": [
-        
+        "51087ba3-fe54-4935-a700-6dff29e52d0a"
     ],
     "tutorial": ""
 }
