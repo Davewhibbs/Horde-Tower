@@ -1,5 +1,5 @@
 dir = 0;
-spd = 4;
+spd = 3;
 push_spd = 10;
 hp = 1;
 tower_collide = 0;

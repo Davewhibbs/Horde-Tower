@@ -44,6 +44,12 @@ if(alarm[1] <= 0){
 	}
 }
 
+// Reset gun_state if combo is less than combo_length
+if combo < combo_length
+{
+	gun_state = gun_states.basic;
+}
+
 //-----------SHOOTING
 if (input_shoot) {
 	

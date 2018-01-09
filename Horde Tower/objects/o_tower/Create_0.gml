@@ -9,7 +9,7 @@ frict				= normal_frict;
 
 life				= 0;
 combo				= 0;
-combo_length		=10;
+combo_length		= 16;
 
 enum gun_states
 {
